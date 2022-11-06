@@ -32,8 +32,10 @@ const NavBar = () => {
         {id:6,
         link: 'Recorded Performance'},
         {id:7,
-        link: ''},
+        link: 'Additive'},
         {id:8,
+            link: 'Piano'},
+        {id:9,
         link: 'Effects'},
     ]
     

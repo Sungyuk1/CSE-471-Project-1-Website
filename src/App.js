@@ -1,12 +1,13 @@
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
-import SocialLinks from "./components/SocialLinks";
 import Team from "./components/Team";
 import Selection from "./components/Selection";
 import Score from "./components/Score";
 import WaveTable from "./components/WaveTable";
 import RecordedPerformance from "./components/RecordedPerformance";
 import Effects from "./components/Effects";
+import Additive from "./components/Additive";
+import Piano from "./components/Piano";
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
       <Score/>
       <WaveTable/>
       <RecordedPerformance/>
+      <Additive/>
+      <Piano/>
       <Effects/>
-      <SocialLinks/>
       
     </div>
   );

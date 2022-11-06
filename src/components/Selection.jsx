@@ -1,4 +1,6 @@
 import React from 'react'
+import img1 from '../assets/music1.png'
+import img2 from '../assets/image2.png'
 
 const Selection = () => {
   return (
@@ -10,18 +12,12 @@ const Selection = () => {
             </div>
             {/*mt means margin top*/}
             <p className='text-xl mt-5'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis explicabo quod blanditiis sed, ullam nihil 
-                cum dolore modi vel provident. Facilis veniam autem, consequuntur cum quisquam id voluptatum cupiditate soluta blanditiis
-                 corrupti nihil non facere laudantium. Modi earum non recusandae voluptate dolor tempore 
-                 impedit debitis vitae totam dicta. Nesciunt, ut!
+                
             </p>
-
+            <img className="object-scale-down h-96 w-96"src={img1} alt="" />
             <br/>
-            <p className="text-xl">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus impedit iusto inventore quia maiores ipsam tempora, 
-                tempore eligendi asperiores! Qui iusto expedita quo rem dolorem, fuga est rerum deserunt, atque optio dolore quia et? 
-                Quaerat quis odio reprehenderit porro perspiciatis veritatis officiis ipsum? Repellat ipsam facere perferendis perspiciatis nam. Hic!
-            </p>
+            <img className="object-scale-down h-96 w-96" src={img2} alt="" />
+            
         </div>
     </div>
   )

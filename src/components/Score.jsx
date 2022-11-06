@@ -9,18 +9,11 @@ const Score = () => {
             </div>
             {/*mt means margin top*/}
             <p className='text-xl mt-5'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis explicabo quod blanditiis sed, ullam nihil 
-                cum dolore modi vel provident. Facilis veniam autem, consequuntur cum quisquam id voluptatum cupiditate soluta blanditiis
-                 corrupti nihil non facere laudantium. Modi earum non recusandae voluptate dolor tempore 
-                 impedit debitis vitae totam dicta. Nesciunt, ut!
+            The score file is a combination of Mary Had a Little Lamb for the first 15 measures. This song has ADSR and CrossfadeIn and CrossFadeOut. Also in measures 7 and 8 the additive effect vibrato was added. The next song is London Bridge is Falling Down.  The song is a total of 61 seconds long. (Piano and Recorded Performance had to be excluded because if included it would have caused an error).
+
             </p>
 
             <br/>
-            <p className="text-xl">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus impedit iusto inventore quia maiores ipsam tempora, 
-                tempore eligendi asperiores! Qui iusto expedita quo rem dolorem, fuga est rerum deserunt, atque optio dolore quia et? 
-                Quaerat quis odio reprehenderit porro perspiciatis veritatis officiis ipsum? Repellat ipsam facere perferendis perspiciatis nam. Hic!
-            </p>
         </div>
     </div>
   )
